@@ -21,6 +21,17 @@
 			margin-left: -20em;
 			width: 40em;
 			background: #fff;
+			border-bottom: 1px solid #ddd;
+		}
+		header ul {
+			list-style: none;
+			text-transform: uppercase;
+			display: flex;
+			justify-content: space-between;
+		}
+		header ul li {
+			float: left;
+			margin: 0 1em;
 		}
 		section {
 			max-width: 40em;
@@ -49,7 +60,11 @@
 </head>
 <body>
 	<header>
-		<h1>Łukasz Rożej</h1>
+		<ul>
+			<li>Łukasz Rożej</li>
+			<li><a href='#tutorials'>courses</a></li>
+			<li><a href='#contact'>contact</a></li>
+		</ul>
 	</header>
 	<section id='tutorials'>
 		<h2>tutorials I teach</h2>
@@ -67,6 +82,10 @@
 	</section>
 	<section id='algebra'>
 		<h2>Algebra with geometry</h2>
+	</section>
+	<section id='contact'>
+		office hours
+		email
 	</section>
 </body>
 </html>
