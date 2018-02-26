@@ -1,9 +1,13 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
   margin: 0;
+  padding: 1em;
+  background: url(../img/background.png) repeat;
   font-family: 'Oxygen', sans-serif;
   text-align: center;
 }
@@ -18,12 +22,28 @@ main,
 footer {
   margin-left: auto;
   margin-right: auto;
+  background-color: #eec;
+  border: 1px solid #997;
+  border-radius: 1em;
+  margin-top: 1em;
+  box-shadow: #000 0 0 2em;
+  padding: 1em;
 }
 
 header {
-  margin-top: 1em;
+  border-bottom: none;
+}
+
+main {
+  border-top: none;
+  border-bottom: none;
 }
 
 footer {
+  border-top: none;
   margin-bottom: 1em;
+}
+
+.course {
+  margin: 1em auto;
 }
