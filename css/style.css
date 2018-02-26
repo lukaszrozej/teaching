@@ -1,26 +1,29 @@
 * {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-	margin: 0;
-	font-family: 'Oxygen', sans-serif;
-	text-align: center;
+  margin: 0;
+  font-family: 'Oxygen', sans-serif;
+  text-align: center;
 }
 
-h1, h2 {
-	font-weight: normal;
+h1,
+h2 {
+  font-weight: normal;
 }
 
-header, main, footer {
-	margin-left: auto;
-	margin-right: auto;
+header,
+main,
+footer {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 header {
-	margin-top: 1em;
+  margin-top: 1em;
 }
 
 footer {
-	margin-bottom: 1em;
+  margin-bottom: 1em;
 }
