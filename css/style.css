@@ -28,6 +28,7 @@ footer {
   margin-top: 1em;
   box-shadow: #000 0 0 2em;
   padding: 1em;
+  max-width: 40em;
 }
 
 header {
