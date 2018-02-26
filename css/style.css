@@ -17,6 +17,10 @@ h2 {
   font-weight: normal;
 }
 
+.course-name {
+  margin-bottom: 0.5em;
+}
+
 header,
 main,
 footer {
